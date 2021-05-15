@@ -74,7 +74,7 @@
  /*- body-*/
  
  .background {
-     background-image: url(/assets/Background-image.png);
+     background-image: url(../assets/Background-image.png);
      background-repeat: no-repeat;
      margin-top: -3em;
      height: 35.2em;
@@ -178,7 +178,7 @@
  }
  
  .article-heading {
-     background-image: url(/assets/Blog-post/blog1.png);
+     background-image: url(../assets/Blog-post/blog1.png);
      background-repeat: no-repeat;
      width: 40em;
      height: 20em;
@@ -186,7 +186,7 @@
  }
  
  .article-heading2 {
-     background-image: url(/assets/Blog-post/blog2.png);
+     background-image: url(../assets/Blog-post/blog2.png);
      background-repeat: no-repeat;
      width: 40em;
      height: 20em;
@@ -194,7 +194,7 @@
  }
  
  .article-heading3 {
-     background-image: url(/assets/Blog-post/blog3.png);
+     background-image: url(../assets/Blog-post/blog3.png);
      background-repeat: no-repeat;
      width: 40em;
      height: 20em;
@@ -202,7 +202,7 @@
  }
  
  .article-heading4 {
-     background-image: url(/assets/Blog-post/blog4.png);
+     background-image: url(../assets/Blog-post/blog4.png);
      background-repeat: no-repeat;
      width: 40em;
      height: 20em;
@@ -311,35 +311,35 @@
  }
  
  .post1 {
-     background-image: url(/assets/popular-post/m-blog-1.jpg);
+     background-image: url(../assets/popular-post/m-blog-1.jpg);
      height: 11em;
      width: 22em;
      margin-left: 1.7em;
  }
  
  .post2 {
-     background-image: url(/assets/popular-post/m-blog-2.jpg);
+     background-image: url(../assets/popular-post/m-blog-2.jpg);
      height: 11em;
      width: 22em;
      margin-left: 1.7em;
  }
  
  .post3 {
-     background-image: url(/assets/popular-post/m-blog-3.jpg);
+     background-image: url(../assets/popular-post/m-blog-3.jpg);
      height: 11em;
      width: 22em;
      margin-left: 1.7em;
  }
  
  .post4 {
-     background-image: url(/assets/popular-post/m-blog-4.jpg);
+     background-image: url(../assets/popular-post/m-blog-4.jpg);
      height: 11em;
      width: 22em;
      margin-left: 1.7em;
  }
  
  .post5 {
-     background-image: url(/assets/popular-post/m-blog-5.jpg);
+     background-image: url(../assets/popular-post/m-blog-5.jpg);
      height: 11em;
      width: 22em;
      margin-left: 1.7em;
