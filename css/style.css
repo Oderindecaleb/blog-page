@@ -70,6 +70,26 @@
      height: 1.5em;
      margin-left: 0.5em;
  }
+ 
+ .log-in {
+     margin-top: 1.5em;
+     width: 10em;
+     margin-left: -4em;
+ }
+ 
+ .log-in a {
+     padding: 1rem 2rem;
+     background-color: black;
+     color: white;
+     margin-left: 3em;
+     border-radius: 2em;
+ }
+ 
+ .log-in a:hover {
+     border: 1px solid black;
+     background-color: white;
+     color: black;
+ }
  /*-------x----- navbar-----x-----*/
  /*- body-*/
  
@@ -445,22 +465,22 @@
      padding-right: 20em;
  }
  
- .newsletter {
+ {
      margin-left: -20em;
  }
  
  .email-subscribe {
-     background-color: black;
+     background-color: white;
      border: 1px solid rgb(124, 123, 123);
+     height: 1.7em;
  }
  
  .email-arrow {
      background: linear-gradient( to right, rgba(156, 171, 245, 0.979), rgb(154, 196, 231));
      border: none;
-     padding: 0.1px 16px;
-     padding-bottom: 1.5px;
      font-size: 17px;
      text-align: center;
+     height: 1.5em;
  }
  
  .ig-pictures {
@@ -477,4 +497,8 @@
  .personal-info p {
      text-align: center;
      padding-bottom: 15px;
+ }
+ 
+ .personal-info a {
+     color: rgb(124, 123, 123);
  }

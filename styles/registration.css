@@ -1,0 +1,227 @@
+        html,
+        body {
+            padding: 0em;
+            margin: 0em;
+            box-sizing: border-box;
+        }
+        
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        p {
+            color: rgb(80, 79, 79);
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .logo {
+            height: 6em;
+            width: 15em;
+            padding-top: -1em;
+            margin-left: -2em;
+        }
+        
+        .content {
+            background-color: whitesmoke;
+            width: 30em;
+            padding-left: 3em;
+            margin-left: 22em;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            padding-top: 1em;
+        }
+        
+        .email {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            width: 31em;
+            background-color: whitesmoke;
+        }
+        
+        .email:focus,
+        .email:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .names {
+            display: flex;
+        }
+        
+        .FN {
+            margin-right: 0.4em;
+        }
+        
+        .first-name {
+            width: 14.5em;
+            height: 1em;
+            margin-top: -1em;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            background-color: whitesmoke
+        }
+        
+        .last-name {
+            width: 15.5em;
+            height: 1em;
+            margin-top: 3.89em;
+            margin-left: -5em;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            background-color: whitesmoke;
+        }
+        
+        .first-name:focus,
+        .first-name:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .last-name:focus,
+        .last-name:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .password {
+            width: 31em;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            background-color: whitesmoke;
+        }
+        
+        .password:focus,
+        .password:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .calender {
+            display: flex;
+        }
+        
+        .calender .M {
+            margin-right: 7em;
+        }
+        
+        .calender .D {
+            margin-right: 7em;
+        }
+        
+        .calender-parameters {
+            display: flex;
+        }
+        
+        .month {
+            margin-right: 2.7em;
+            width: ;
+        }
+        
+        .year {
+            margin-left: 6.5em;
+        }
+        
+        .year-input {
+            width: 9em;
+            margin-left: -7em;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            background-color: whitesmoke;
+        }
+        
+        .day-input {
+            width: 9em;
+            margin-left: -2.4em;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            background-color: whitesmoke;
+        }
+        
+        .month-input {
+            width: 10.6em;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            background-color: whitesmoke;
+        }
+        
+        .month-input:focus,
+        .month-input:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .year-input:focus,
+        .year-input:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .day-input:focus,
+        .day-input:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .phone-input {
+            width: 30em;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            background-color: whitesmoke;
+        }
+        
+        .phone-input:focus,
+        .phone-input:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .country-input {
+            width: 30em;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid gray;
+            background-color: whitesmoke;
+        }
+        
+        .country-input:focus,
+        .country-input:active {
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .confirmation {
+            width: 25em;
+        }
+        
+        button[type="submit"] {
+            height: 3em;
+            width: 10em;
+            margin-top: 1.7em;
+            margin-bottom: 1em;
+            background-color: rgb(20, 4, 4);
+            color: white;
+            border: none;
+        }
